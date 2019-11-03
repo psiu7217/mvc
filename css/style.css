@@ -1,0 +1,21 @@
+.tasks {
+
+}
+.tasks .item {
+    padding: 15px;
+    margin-bottom: 30px;
+    border: solid 1px;
+    border-radius: 15px;
+}
+.tasks .item >div {
+    margin-bottom: 15px;
+}
+.tasks .item >div > span {
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+}
+.btn_group_task {
+    display: flex;
+    justify-content: space-between;
+}
